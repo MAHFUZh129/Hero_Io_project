@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "Pixel Painter",
+    "companyName": "ColorSoft Studios",
+    "id": 1,
+    "description": "Create and edit pixel art with ease using Pixel Painter.",
+    "size": 42,
+    "reviews": 1284,
+    "ratingAvg": 4.6,
+    "downloads": "5.0M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 714 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888847.png",
+    "title": "FitTrack Pro",
+    "companyName": "HealthZone Ltd",
+    "id": 2,
+    "description": "Track your workouts and achieve your fitness goals easily.",
+    "size": 55,
+    "reviews": 2143,
+    "ratingAvg": 4.3,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 580 },
+      { "name": "5 star", "count": 1033 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+    "title": "NoteEase",
+    "companyName": "SmartNotes Inc",
+    "id": 3,
+    "description": "Take notes, organize tasks, and boost productivity.",
+    "size": 38,
+    "reviews": 985,
+    "ratingAvg": 4.7,
+    "downloads": "0.8M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 575 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888836.png",
+    "title": "SoundFlow Music",
+    "companyName": "Harmony Labs",
+    "id": 4,
+    "description": "Stream millions of songs and create your own playlists.",
+    "size": 60,
+    "reviews": 3456,
+    "ratingAvg": 4.5,
+    "downloads": "2.0M",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1556 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888870.png",
+    "title": "BudgetMate",
+    "companyName": "FinancePro",
+    "id": 5,
+    "description": "Manage your expenses and budget smarter with BudgetMate.",
+    "size": 48,
+    "reviews": 1570,
+    "ratingAvg": 4.2,
+    "downloads": "0.95M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888893.png",
+    "title": "PhotoFixer",
+    "companyName": "LensWorks",
+    "id": 6,
+    "description": "Enhance and edit your photos using AI-powered filters.",
+    "size": 70,
+    "reviews": 2890,
+    "ratingAvg": 4.4,
+    "downloads": "3.0M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1140 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bM8RKKKd/download.png",
+    "title": "CodeMaster",
+    "companyName": "DevZone",
+    "id": 7,
+    "description": "Learn coding interactively through games and challenges.",
+    "size": 63,
+    "reviews": 3120,
+    "ratingAvg": 4.8,
+    "downloads": "1.8M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 2230 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888847.png",
+    "title": "TravelMate",
+    "companyName": "Explorer Inc",
+    "id": 8,
+    "description": "Plan your trips and explore new destinations worldwide.",
+    "size": 50,
+    "reviews": 1620,
+    "ratingAvg": 4.1,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SDmC0rtY/demo-app-5.webp",
+    "title": "MindCalm",
+    "companyName": "ZenWorks",
+    "id": 9,
+    "description": "Meditation and relaxation app for a calmer mind.",
+    "size": 35,
+    "reviews": 1900,
+    "ratingAvg": 4.9,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 1570 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888836.png",
+    "title": "TaskHero",
+    "companyName": "Productive Apps",
+    "id": 10,
+    "description": "Organize your to-dos and stay productive every day.",
+    "size": 40,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "0.9M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5hFH8D3s/demo-app-1.webp",
+    "title": "WeatherNow",
+    "companyName": "SkyView Labs",
+    "id": 11,
+    "description": "Get real-time weather updates and 7-day forecasts.",
+    "size": 52,
+    "reviews": 1320,
+    "ratingAvg": 4.4,
+    "downloads": "0.85M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5WPzhbt2/demo-app-6.webp",
+    "title": "ChefPal",
+    "companyName": "TastyTech",
+    "id": 12,
+    "description": "Find and share recipes with a community of food lovers.",
+    "size": 58,
+    "reviews": 2200,
+    "ratingAvg": 4.5,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 590 },
+      { "name": "5 star", "count": 1060 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "QuizChamp",
+    "companyName": "EduFun Games",
+    "id": 13,
+    "description": "Challenge your knowledge with daily quiz competitions.",
+    "size": 49,
+    "reviews": 1760,
+    "ratingAvg": 4.6,
+    "downloads": "1.0M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/350w4dqv/demo-app-2.webp",
+    "title": "CryptoWatch",
+    "companyName": "BlockVision",
+    "id": 14,
+    "description": "Track crypto prices and manage your digital portfolio.",
+    "size": 47,
+    "reviews": 1450,
+    "ratingAvg": 4.0,
+    "downloads": "0.95M",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+    "title": "StoryCraft",
+    "companyName": "WordWorks",
+    "id": 15,
+    "description": "Write stories and share them with readers worldwide.",
+    "size": 53,
+    "reviews": 2300,
+    "ratingAvg": 4.7,
+    "downloads": "1.25M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1340 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888836.png",
+    "title": "DailyQuotes",
+    "companyName": "InspireMe",
+    "id": 16,
+    "description": "Get inspired with daily motivational and life quotes.",
+    "size": 28,
+    "reviews": 620,
+    "ratingAvg": 4.8,
+    "downloads": "0.6M",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888870.png",
+    "title": "FlashLearn",
+    "companyName": "StudyPro",
+    "id": 17,
+    "description": "Learn faster using AI-powered flashcards.",
+    "size": 37,
+    "reviews": 1320,
+    "ratingAvg": 4.6,
+    "downloads": "0.89M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sncMtNv/demo-app-3.webp",
+    "title": "RideBuddy",
+    "companyName": "MoveFast",
+    "id": 18,
+    "description": "Book rides instantly and track drivers in real time.",
+    "size": 65,
+    "reviews": 5200,
+    "ratingAvg": 4.2,
+    "downloads": "5.0M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jkTQFd1T/demo-app-4.webp",
+    "title": "PetCare",
+    "companyName": "Animalia",
+    "id": 19,
+    "description": "Keep your pets healthy with reminders and vet tips.",
+    "size": 43,
+    "reviews": 880,
+    "ratingAvg": 4.5,
+    "downloads": "0.72M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888847.png",
+    "title": "LangMate",
+    "companyName": "GlobalTalk",
+    "id": 20,
+    "description": "Learn new languages through chatting with native speakers.",
+    "size": 59,
+    "reviews": 2670,
+    "ratingAvg": 4.7,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 1720 }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png'
 import git from '../assets/Vector1.png'
+import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -14,23 +15,27 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-         <li className='font-semibold text-lg'><a>Home</a></li>
+         
+
+      <li className='font-semibold text-lg'><a href='/'>Home</a></li>
       <li className='font-semibold text-lg'><a>Apps</a></li>
       <li className='font-semibold text-lg'><a>Installation</a></li>   
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"><img className='h-7' src={logo} alt="" /><span className='text-[#785abd] font-bold'>HERO.IO</span></a>
+    <a href='/' className="btn btn-ghost text-xl"><img className='h-7' src={logo} alt="" /><span className='text-[#785abd] font-bold'>HERO.IO</span></a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li className='font-semibold text-lg'><a>Home</a></li>
-      <li className='font-semibold text-lg'><a>Apps</a></li>
+     
+
+      <li className='font-semibold text-lg'><a href='/'>Home</a></li>
+      <li className='font-semibold text-lg'><a >Apps</a></li>
       <li className='font-semibold text-lg'><a>Installation</a></li>
       
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold"> <img src={git} alt="" />Contribute</a>
+    <a href='https://github.com/MAHFUZh129' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold"> <img src={git} alt="" />Contribute</a>
   </div>
 </div>
         </div>
