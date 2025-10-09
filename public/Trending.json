@@ -1,14 +1,15 @@
+
 [
-    {
+  {
     "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
     "title": "Pixel Painter",
     "companyName": "ColorSoft Studios",
     "id": 1,
-    "description": "Create and edit pixel art with ease using Pixel Painter.",
-    "size": 42,
-    "reviews": 1284,
+    "description": "Pixel Painter is the ultimate app for pixel art creation. Whether you're designing characters, icons, or retro game scenes, its intuitive interface makes drawing with pixels incredibly easy. Enjoy customizable grids, color palettes, layers, and precise tools to bring your imagination to life. Export your creations effortlessly, share them with friends, and explore a community of digital artists who love pixel perfection. From quick sketches to full art projects, Pixel Painter offers everything you need for creativity without limits. With automatic saving, undo options, and professional-grade editing features, its perfect for beginners and seasoned artists alike. Let every pixel tell your story in the most creative way possible!",
+    "size": "42MB",
+    "reviews": "1.3K",
     "ratingAvg": 4.6,
-    "downloads":  "5.0M",
+    "downloads": "5.0M",
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 80 },
@@ -17,15 +18,14 @@
       { "name": "5 star", "count": 714 }
     ]
   },
-  
   {
     "image": "https://cdn-icons-png.flaticon.com/512/888/888836.png",
     "title": "SoundFlow Music",
     "companyName": "Harmony Labs",
     "id": 4,
-    "description": "Stream millions of songs and create your own playlists.",
-    "size": 60,
-    "reviews": 3456,
+    "description": "SoundFlow Music brings your world of sound to life with millions of songs, albums, and playlists at your fingertips. Explore trending tracks, discover new artists, and stream your favorite music in high-quality audio. Create personalized playlists that match your mood, or let smart recommendations surprise you. Enjoy offline listening, seamless playback, and a sleek, easy-to-use interface that keeps the rhythm going wherever you are. Whether you love pop, rock, classical, or podcasts, SoundFlow adapts to your tastes and delivers uninterrupted music enjoyment. Connect with a global music community, share your playlists, and dive into a vibrant listening experience that turns every beat into a moment of joy.",
+    "size": "60MB",
+    "reviews": "3.5K",
     "ratingAvg": 4.5,
     "downloads": "2.0M",
     "ratings": [
@@ -36,15 +36,14 @@
       { "name": "5 star", "count": 1556 }
     ]
   },
-  
   {
     "image": "https://cdn-icons-png.flaticon.com/512/888/888893.png",
     "title": "PhotoFixer",
     "companyName": "LensWorks",
     "id": 6,
-    "description": "Enhance and edit your photos using AI-powered filters.",
-    "size": 70,
-    "reviews": 2890,
+    "description": "PhotoFixer is your go-to photo editing app powered by smart AI filters. Transform dull photos into stunning masterpieces within seconds. Adjust brightness, contrast, saturation, and tone automatically or refine each element manually for precision. With dozens of filters, effects, and background tools, every picture becomes social-media ready. Whether its portraits, landscapes, or creative edits, PhotoFixer helps you enhance and stylize effortlessly. The app supports high-resolution exports, instant previews, and seamless sharing across all platforms. Discover the power of next-generation photo enhancement that combines ease, speed, and creativity. Bring your photos to life and let your artistic vision shine through every edit, filter, and touch of PhotoFixer.",
+    "size": "70MB",
+    "reviews": "2.9K",
     "ratingAvg": 4.4,
     "downloads": "3.0M",
     "ratings": [
@@ -60,9 +59,9 @@
     "title": "CodeMaster",
     "companyName": "DevZone",
     "id": 7,
-    "description": "Learn coding interactively through games and challenges.",
-    "size": 63,
-    "reviews": 3120,
+    "description": "CodeMaster makes learning to code engaging, fun, and rewarding. Dive into interactive lessons that teach programming through challenges, puzzles, and real-world projects. Whether you're a beginner or brushing up your skills, CodeMaster covers everything from HTML to Python in bite-sized, easy-to-follow steps. Gamified progress tracking keeps you motivated, while instant feedback helps you learn faster. Practice coding in real-time, earn achievements, and build practical projects that strengthen your skills. The app includes quizzes, tutorials, and coding simulations that make complex concepts simple. Learn anytime, anywhere, and turn your coding dreams into reality. CodeMaster is your personal coding companion designed to inspire creativity, logic, and problem-solving mastery.",
+    "size": "63MB",
+    "reviews": "3.1K",
     "ratingAvg": 4.8,
     "downloads": "1.8M",
     "ratings": [
@@ -78,9 +77,9 @@
     "title": "MindCalm",
     "companyName": "ZenWorks",
     "id": 9,
-    "description": "Meditation and relaxation app for a calmer mind.",
-    "size": 35,
-    "reviews": 1900,
+    "description": "MindCalm helps you find peace, focus, and relaxation through guided meditations and mindfulness practices. Discover breathing exercises, nature sounds, and stress relief programs designed by experts. Whether you need calm before sleep, clarity during work, or mindfulness for anxiety, MindCalm personalizes your journey. Track your progress and build healthy habits that promote balance and well-being. With soothing visuals, relaxing music, and daily reminders, its the perfect companion for mental clarity. Join thousands of users improving their focus, emotional health, and inner peace every day. MindCalm turns moments of chaos into calm with beautifully crafted meditation sessions that fit seamlessly into your lifestyle.",
+    "size": "35MB",
+    "reviews": "1.9K",
     "ratingAvg": 4.9,
     "downloads": "1.4M",
     "ratings": [
@@ -96,9 +95,9 @@
     "title": "ChefPal",
     "companyName": "TastyTech",
     "id": 12,
-    "description": "Find and share recipes with a community of food lovers.",
-    "size": 58,
-    "reviews": 2200,
+    "description": "ChefPal is your culinary assistant for discovering, creating, and sharing amazing recipes. Explore thousands of dishes across cuisines with step-by-step instructions and vibrant photos. Whether you're a beginner cook or an expert chef, ChefPal helps you plan meals, generate grocery lists, and experiment with flavors. Save your favorite recipes, share them with friends, and join a global community of food lovers. The apps smart search makes finding recipes by ingredients or dietary preferences effortless. Stay inspired daily with new dishes and trending food ideas. With ChefPal, cooking becomes easy, enjoyable, and creative—bringing delicious meals to your kitchen one recipe at a time.",
+    "size": "58MB",
+    "reviews": "2.2K",
     "ratingAvg": 4.5,
     "downloads": "1.3M",
     "ratings": [
@@ -114,9 +113,9 @@
     "title": "RideBuddy",
     "companyName": "MoveFast",
     "id": 18,
-    "description": "Book rides instantly and track drivers in real time.",
-    "size": 65,
-    "reviews": 5200,
+    "description": "RideBuddy makes travel fast, easy, and reliable. Book rides instantly, track your driver in real-time, and enjoy safe journeys wherever you go. With transparent pricing, multiple payment options, and 24/7 support, RideBuddy ensures convenience with every trip. Whether commuting daily or traveling long distances, you'll always find a driver nearby. The app's smart matching system reduces wait times and connects you with trusted drivers. Enjoy secure rides, live tracking, and instant receipts for complete transparency. Designed with safety and speed in mind, RideBuddy makes transportation smooth, affordable, and efficient—your perfect travel companion on the go.",
+    "size": "65MB",
+    "reviews": "5.2K",
     "ratingAvg": 4.2,
     "downloads": "5.0M",
     "ratings": [
@@ -132,9 +131,9 @@
     "title": "LangMate",
     "companyName": "GlobalTalk",
     "id": 20,
-    "description": "Learn new languages through chatting with native speakers.",
-    "size": 59,
-    "reviews": 2670,
+    "description": "LangMate helps you learn languages naturally by chatting with native speakers worldwide. Improve pronunciation, grammar, and confidence through real conversations. The app supports text, voice, and video exchanges, making learning immersive and fun. With smart translation and topic suggestions, you'll always have something interesting to talk about. Practice your target language daily and gain cultural insights directly from locals. LangMate's gamified approach keeps learning motivating with badges, levels, and rewards. Whether you're preparing for travel, school, or personal growth, LangMate helps you master new languages faster than ever. Connect, converse, and grow fluently in a friendly, global learning community.",
+    "size": "59MB",
+    "reviews": "2.7K",
     "ratingAvg": 4.7,
     "downloads": "2.1M",
     "ratings": [
