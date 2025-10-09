@@ -4,17 +4,27 @@ import rev from '../assets/icon-review.png';
 import d from '../assets/icon-downloads.png';
 import { useLoaderData, useParams } from 'react-router';
 
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  ResponsiveContainer,
+} from 'recharts';
+
+
 const AppDetails = () => {
     
      const {id} = useParams();
      const appId =parseInt(id);
      const data =useLoaderData();
      const app =data.find(ap=>ap.id===appId);
-    console.log(app,data,appId)
+    // console.log(app,data,appId)
     return (
       
         <div className=' m-10'>
-        <div className='flex '>
+        <div className='md:flex '>
           <img className='h-58 rounded-lg mr-10' src={app.image} alt="" />
           <div className='space-y-4'>
           <div className=''>
@@ -22,7 +32,6 @@ const AppDetails = () => {
           <h3 className='font-semibold text-gray-500'>Developed by <span className='text-[#632EE3]'>{app.companyName}</span></h3> 
           </div>
             <div className="divider"></div>
-
           <div className='flex gap-16'>
             <div className='space-y-1'>
               <img className='h-5' src={d} alt="" />
@@ -44,8 +53,57 @@ const AppDetails = () => {
           </div>
         </div>
     <div className="divider"></div>
-     <h5 className='text-xl font-semibold mb-2'>Description</h5>
+    
+ <div 
+        style={{ 
+            width: '100%', 
+            height: 350, 
+            padding: '2px',
+            marginTop:'5px' 
+        }}
+    >
+      <h2 className='font-semibold text-xl' style={{ marginBottom: '20px', color: '#333' }}>Ratings</h2>
+      <ResponsiveContainer width="100%" height="90%">
+        <BarChart
+          data={app.ratings}
+          layout="vertical" 
+          margin={{ top: 0, right: 30, left: 10, bottom: 20 }} 
+        >
+          <CartesianGrid 
+            stroke="#e0e0e0" 
+            strokeDasharray="3 3" 
+            horizontal={false} 
+            opacity={0.5}
+          />
+
+          <YAxis 
+            dataKey={app.ratings.name} 
+            type="category" 
+            stroke="#333"
+            style={{ fontWeight: 'normal', fontSize: '14px' }}
+          />
+
+          <XAxis 
+            dataKey={app.ratings.count}  
+            type="number" 
+            stroke="#333" 
+            axisLine={false}
+            tickLine={false}
+          />
+           <Bar 
+            dataKey="count" 
+            fill="#ff8c01" 
+            barSize={32} 
+          />
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+    <div className="divider"></div>
+    <div className='mt-10'>
+    <h5 className='text-xl font-semibold mb-2'>Description</h5>
   <p>{app.description}</p>
+    </div>
+     
         </div>
     );
 };

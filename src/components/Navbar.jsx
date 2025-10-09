@@ -18,7 +18,7 @@ const Navbar = () => {
          
 
       <li className='font-semibold text-lg'><a href='/'>Home</a></li>
-      <li className='font-semibold text-lg'><a>Apps</a></li>
+      <li className='font-semibold text-lg'><a href='/allapps'>Apps</a></li>
       <li className='font-semibold text-lg'><a>Installation</a></li>   
       </ul>
     </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
      
 
       <li className='font-semibold text-lg'><a href='/'>Home</a></li>
-      <li className='font-semibold text-lg'><a >Apps</a></li>
+      <li className='font-semibold text-lg'><a href='/allapps' >Apps</a></li>
       <li className='font-semibold text-lg'><a>Installation</a></li>
       
     </ul>

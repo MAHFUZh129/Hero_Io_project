@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import TrendApp from './TrendApp';
+import { Link } from 'react-router';
 
 const TrendingApps = ({data}) => {
     return (
@@ -16,7 +17,7 @@ const TrendingApps = ({data}) => {
              </Suspense>
                </div>
                <div className='text-center'>
-               <button className="btn text-white bg-[#7746ea]">Show All</button>
+        <Link to={'/allapps'}><button className="btn text-white bg-[#7746ea]">Show All</button></Link>
 
                </div>
         </div> 
