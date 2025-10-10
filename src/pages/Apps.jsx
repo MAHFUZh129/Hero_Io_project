@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 const Apps = ({app}) => {
     
     return (
-        <Link to={`/appdetails/${app.id}`}>
+        <Link to={`/bookdetails/${app.id}`}>
         <div className='bg-white rounded-lg p-4'>
             <div className='space-y-3 '>
             <img className='rounded-lg' src={app.image} alt="" />

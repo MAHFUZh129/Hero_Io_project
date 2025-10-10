@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 
 const TrendApp = ({app}) => {
-    console.log(app)
+    // console.log(app)
     return (
        <Link to={`/bookdetails/${app.id}`}>
         <div className='bg-white rounded-lg p-4'>

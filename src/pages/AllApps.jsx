@@ -5,7 +5,7 @@ import Apps from './Apps';
 const AllApps = () => {
 
     const data =useLoaderData()
-    console.log(data)
+    // console.log(data)
     return (
         <div className='px-6 bg-[#e8e5e5]  py-12 space-y-10'>
             <div className='text-center'>
