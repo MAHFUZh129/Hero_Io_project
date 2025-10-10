@@ -16,7 +16,10 @@ const Installation = () => {
     },[])
 
 
-    
+    const handleRemoveApp= (id) => {
+    const remainin = installedApp.filter(app => app.id !== id);
+    setInstalledApp(remainin);
+  };
 
     return (
         <div className='bg-[#e8e5e5] space-y-12 px-8 py-15'>
@@ -34,7 +37,7 @@ const Installation = () => {
             </div>
             <div className='space-y-2'>
                 {
-                installedApp.map(app=> <InstalledApp key={app.id} app={app}></InstalledApp>)
+                installedApp.map(app=> <InstalledApp remove={handleRemoveApp} key={app.id} app={app}></InstalledApp>)
             }
             </div>
         </div> 

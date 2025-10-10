@@ -1,8 +1,16 @@
 import React from 'react';
 import r from '../assets/icon-ratings.png';
 import d from '../assets/icon-downloads.png';
+import { removeFromDB } from '../utility/addToDB';
 
-const InstalledApp = ({app}) => {
+const InstalledApp = ({app,remove}) => {
+
+const handleRemove=()=>{
+    removeFromDB(app.id)
+    remove(app.id)
+  };
+
+
     return (
         <div className=' flex justify-between items-center rounded-lg p-3 bg-white gap-3'>
             <div className='flex gap-3 '>
@@ -17,7 +25,7 @@ const InstalledApp = ({app}) => {
 
             </div>
             </div>
-            <button className="btn text-white bg-[#00D390]">Uninstall</button>
+            <button onClick={handleRemove}  className="btn text-white bg-[#00D390]">Uninstall</button>
 
         </div>
     );
