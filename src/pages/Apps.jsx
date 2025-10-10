@@ -4,10 +4,11 @@ import d from '../assets/icon-downloads.png';
 import r from '../assets/icon-ratings.png';
 import { Link } from 'react-router';
 
+
 const Apps = ({app}) => {
     
     return (
-        <Link to={`/bookdetails/${app.id}`}>
+        <Link to={`/appdetails/${app.id}`}>
         <div className='bg-white rounded-lg p-4'>
             <div className='space-y-3 '>
             <img className='rounded-lg' src={app.image} alt="" />

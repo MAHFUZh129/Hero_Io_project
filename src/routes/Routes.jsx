@@ -5,6 +5,7 @@ import ErrPage from '../pages/ErrPage';
 import Home from '../pages/Home';
 import AppDetails from '../pages/AppDetails';
 import AllApps from '../pages/AllApps';
+import Installation from '../pages/Installation';
 
 
 
@@ -20,21 +21,27 @@ export const router = createBrowserRouter([
             index:true,
             path:'/',
             Component:Home,
-            loader:()=>fetch('Trending.json')
+            loader:()=>fetch('/Trending.json')
         },
         {
-            path:'/bookdetails/:id',
+            path:'/appdetails/:id',
             Component:AppDetails,
-            loader:()=>fetch('Data.json')
+            loader:()=>fetch('/Data.json')
             
             
         },
         {
           path:'/allapps',
           Component:AllApps,
-          loader:()=>fetch('Data.json')
+          loader:()=>fetch('/Data.json')
 
+        },
+        {
+          path:'/installation',
+          Component:Installation,
+          loader:()=>fetch('/Data.json')
         }
+
      ]
   },
   

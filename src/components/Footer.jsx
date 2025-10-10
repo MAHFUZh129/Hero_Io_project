@@ -3,8 +3,8 @@ import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer bg-[#001931] sm:footer-horizontal text-white   p-10">
+        <div className='bg-[#001931]'>
+            <footer className="footer  sm:footer-horizontal text-white   p-10">
   <nav>
     <h6 className=" flex gap-2 items-center font-bold text-white text-3xl"> <img className='h-8' src={logo} alt="" />HERO</h6>
     <p className='text-gray-400'>At HERO.IO, We specialize in app design and development, combining creativity <br /> with cutting-edge technology to deliver seamless, user-focused solutions.  Whether <br />it’s a mobile app, web platform, or digital tool, HERO.IO turns visionary concepts<br /> into products people love to use.</p>
@@ -62,7 +62,9 @@ const Footer = () => {
     </div>
   </nav>
 </footer>
-
+ <div className='text-center pb-7'>
+ <span className='text-gray-400 '>Copyright © 2025 - All right reserved</span>
+</div>
         </div>
     );
 };

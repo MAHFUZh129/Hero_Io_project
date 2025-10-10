@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <li className='font-semibold text-lg'><a href='/'>Home</a></li>
       <li className='font-semibold text-lg'><a href='/allapps'>Apps</a></li>
-      <li className='font-semibold text-lg'><a>Installation</a></li>   
+      <li className='font-semibold text-lg'><a href='/installation'>Installation</a></li>   
       </ul>
     </div>
     <a href='/' className="btn btn-ghost text-xl"><img className='h-7' src={logo} alt="" /><span className='text-[#785abd] font-bold'>HERO.IO</span></a>
@@ -30,7 +30,7 @@ const Navbar = () => {
 
       <li className='font-semibold text-lg'><a href='/'>Home</a></li>
       <li className='font-semibold text-lg'><a href='/allapps' >Apps</a></li>
-      <li className='font-semibold text-lg'><a>Installation</a></li>
+      <li className='font-semibold text-lg'><a href='/installation'>Installation</a></li>
       
     </ul>
   </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import rat from '../assets/icon-ratings.png';
 import rev from '../assets/icon-review.png';
 import d from '../assets/icon-downloads.png';
@@ -12,6 +12,7 @@ import {
   CartesianGrid,
   ResponsiveContainer,
 } from 'recharts';
+import { addToStoreDB } from '../utility/addToDB';
 
 
 const AppDetails = () => {
@@ -20,7 +21,15 @@ const AppDetails = () => {
      const appId =parseInt(id);
      const data =useLoaderData();
      const app =data.find(ap=>ap.id===appId);
-    // console.log(app,data,appId)
+     const [isInstalled, setIsInstalled] = useState(false);
+     
+     const handleInstlledApps=id=>{
+           
+         addToStoreDB(id)
+         setIsInstalled(true);
+     }     
+
+
     return (
       
         <div className=' m-10'>
@@ -49,7 +58,11 @@ const AppDetails = () => {
               <span className='text-xl font-bold'>{app.reviews}</span>
             </div>
           </div>
-          <button className="btn bg-[#00D390] text-white">Install Now ({app.size})</button>
+          {
+            isInstalled ?
+            (<button disabled className="btn bg-[#00D390] text-white">Installed</button>):
+          (<button onClick={()=>handleInstlledApps(id)} className="btn bg-[#00D390] text-white">Install Now ({app.size})</button>)
+          }
           </div>
         </div>
     <div className="divider"></div>
